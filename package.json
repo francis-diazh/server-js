@@ -2,11 +2,11 @@
   "name": "server-js",
   "version": "1.0.0",
   "description": "",
-  "main": "server-express.js",
+  "main": "src/app.js",
   "type": "module",
   "scripts": {
     "dev:http": "node --watch server-http.js",
-    "dev:express": "node --watch ."
+    "dev:app": "node --watch ."
   },
   "keywords": [],
   "author": "",

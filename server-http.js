@@ -1,5 +1,5 @@
 import http from 'http';
-import { products } from './products.js'
+import { products } from './src/products.js'
 
 const server = http.createServer((req,res)=>{
     // res.end ("Mi primer server")
